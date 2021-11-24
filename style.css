@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+* { -webkit-font-smoothing: antialiased; }
+html {height:100%; overflow-y:auto;}
+body {margin-top:0 !important; height:100%; color:#515151; font:12px/14px  'notokr-regular', 'Malgun Gothic', '맑은 고딕', 'Dotum', 'applegothic', sans-serif; /* font-weight: 600; */ word-break:break-all; word-wrap:break-word; word-break:keep-all; -webkit-font-smoothing: antialiased; }
+h1, h2, h3, h4, h5, h6 {font:bold 12px/14px 'notokr-regular', 'Malgun Gothic', '맑은 고딕', 'Dotum', 'applegothic', sans-serif; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, blockquote, th, td, p, button {margin:0; padding:0; -webkit-text-size-adjust:none;}
+fieldset, img, abbr, acronym {border:0 none;}
+legend {position:absolute; height:0; line-height:0; font-size:0; overflow:hidden;}
+legend.showlegend {position:static; line-height:14px; font-size:12px; overflow:visible;}
+address, caption, cite, code, dfn, em, var {font-style:normal; font-weight:normal;}
+ol, ul {list-style:none;}
+q:before, q:after {content:'';}
+table {border-collapse:collapse; border-spacing:0;}
+caption {height:0; line-height:0; font-size:0; overflow:hidden; text-indent:-10000px;}
+hr {display:none;}
+a {color:#515151; text-decoration:none; cursor:pointer;}
+a:active {background-color:transparent;}
+button {border:0 none; background:none;}
+button::-moz-focus-inner,input::-moz-focus-inner {border:0; padding:0;}
+button, input, select, textarea { color:#515151; font:12px/14px 'notokr-regular', 'Malgun Gothic', '맑은 고딕', 'Dotum', 'applegothic', sans-serif;  vertical-align:middle;}
+select {min-width:100px; -webkit-border-radius:0;}
+textarea {overflow:auto; resize:none;}
+img {vertical-align:top;}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {cursor:pointer; overflow:visible; -webkit-appearance:button;}
+input[type="checkbox"],
+input[type="radio"] {width:14px; height:14px; line-height:14px; box-sizing:border-box; -webkit-border-radius:0;}
+input[type="search"] {-webkit-appearance:textfield; -moz-box-sizing:content-box; -webkit-box-sizing:content-box; box-sizing:content-box;}
+input[type="search"]::-webkit-search-decoration {-webkit-appearance:none;}
+
+input::-webkit-input-placeholder{color:#c8c8c8;}
+input:-moz-input-placeholder{color:#c8c8c8;}
+input::-moz-input-placeholder{color:#c8c8c8;}
+input:-ms-input-placeholder{color:#c8c8c8;}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, object {display:block; margin:0; padding:0;}
+audio[controls], canvas, video {display:inline-block; *display:inline; *zoom:1;}
+
+/* Disable orange highlight */
+label, a, button {-o-tap-highlight-color:rgba(0, 0, 0, 0);-ms-tap-highlight-color:rgba(0, 0, 0, 0);-moz-tap-highlight-color rgba(0, 0, 0, 0);-webkit-tap-highlight-color:rgba(0, 0, 0, 0);}
+
+/* global */
+.none {display:none;}
+.hidden {font-size:0; line-height:0; text-indent:-9999px; overflow:hidden;}
+.fl {float:left;}
+.fr {float:right;}
+.left {text-align:left !important;}
+.center {text-align:center !important;}
+.right {text-align:right !important;}
+.block {display:block;}
+.inblock {display:inline-block;}
+.clear:after {content:""; display:block; clear:both;}
+.ellipsis {overflow:hidden; white-space:nowrap; text-overflow:ellipsis;}
+.bold {font-weight: bold;}
+
+
+.container{width:100%;max-width:1024px;margin:0 auto}
+.contents .visual{position:relative;height: 450px;background:yellow}
+.contents .logo{position:absolute;top: 10px;left: 10px; font-size: 30px;}
+.contents .title{line-height:35px;margin:20px 0;text-align:center;font-size: 30px;}
+.contents .title span{display:block;font-size: 18px;color:pink;}
+.contents .about_wrap{margin: 60px 0;text-align:center;}
+.contents .about_wrap .tit_greeting{font-size: 25px;}
+.contents .about_wrap p{margin:20px 0;line-height: 27px;font-size: 16px;}
+.contents .contact_wrap img{margin:auto;width: 50px;height: 50px;}
+.contents .contact_wrap .tit{margin-top: 17px;font-size: 25px;margin-bottom:5px;color:#FF0066;}
+.contents .contact_wrap ul{display: flex;text-align: center;}
+.contents .contact_wrap ul li{width: 33.3%; line-height: 25px;}
+.contents .contact_wrap ul li span{display:block;}
+.contents .map_wrap{margin: 60px 0;text-align:center;}
+.footer{width:100%;max-width:1024px;margin:0 auto}
