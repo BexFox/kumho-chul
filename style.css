@@ -59,9 +59,9 @@ label, a, button {-o-tap-highlight-color:rgba(0, 0, 0, 0);-ms-tap-highlight-colo
 
 
 .container{width:100%;max-width:1024px;margin:0 auto}
-.contents .visual{position:relative;height: 450px;background-image: url("./images/steel.jpg");}
+.contents .visual{position:relative;height: 450px;margin-left:-50%;margin-right:-50%;background:url("./images/steel1.jpg") no-repeat;background-size:100% auto}
 .contents .logo{position:absolute;top: 10px;left: 10px; font-size: 30px;}
-.contents .title{line-height:35px;margin:20px 0;text-align:center;font-size: 30px;}
+.contents .title{line-height:35px;margin:20px 0;text-align:center;font-size: 30px;font-family:'NanumSquareRound'}
 .contents .title span{display:block;font-size: 18px;color:navy;}
 .contents .about_wrap{margin: 60px 0;text-align:center;}
 .contents .about_wrap .tit_greeting{font-size: 25px;}
@@ -71,9 +71,12 @@ label, a, button {-o-tap-highlight-color:rgba(0, 0, 0, 0);-ms-tap-highlight-colo
 .contents .contact_wrap ul{display: flex;text-align: center;}
 .contents .contact_wrap ul li{width: 33.3%; line-height: 25px;}
 .contents .contact_wrap ul li span{display:block;}
-.contents .map_wrap{margin: 60px 0 0 0;text-align:center;}
+.contents .map_wrap{margin: 60px 0;text-align:center;}
 .contents .mapping{display:block; box-sizing: border-box; margin: 0;}
 .contents #map{width:100%;height:300px;}
-.footer{width:100%;max-width:1024px;margin:0 auto;}
-.footer .container{position:relative; background:yellow;}
-.footer .footer_logo{position:absolute;}
+.footer{width:100%;margin:0 auto;background:#2E2E2E;}
+.footer .footer_inner{position:relative;max-width:1024px;height:100px;margin:0 auto;line-height:24px}
+.footer .footer_logo{position:absolute;left:10px;top:50%;margin-top:-30px}
+.footer .footer_logo img{width: 60px;height: 60px;}
+.footer .footer_txt{position:absolute;left:100px;top:50%;margin-top:-25px}
+.footer p{color: #fff;font-family:'NanumSquareRound';font-size: 14px;}

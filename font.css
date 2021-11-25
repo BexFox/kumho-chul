@@ -1,0 +1,57 @@
+/* NanumSquareRound */
+@font-face {
+  font-family: "NanumSquareRound";
+  font-style: normal;
+  font-weight: 300;
+  src:
+    url("font/NanumSquareRound.woff2") format("woff2"),
+    url("font/NanumSquareRound.woff") format("woff"),
+    url("font/NanumSquareRound.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NanumSquareRound";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url("font/NanumSquareRoundR.woff2") format("woff2"),
+    url("font/NanumSquareRoundR.woff") format("woff"),
+    url("font/NanumSquareRoundR.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NanumSquareRound";
+  font-style: normal;
+  font-weight: 700;
+  src:
+    url("font/NanumSquareRoundB.woff2") format("woff2"),
+    url("font/NanumSquareRoundB.woff") format("woff"),
+    url("font/NanumSquareRoundB.ttf") format("truetype");
+}
+@font-face {
+  font-family: "NanumSquareRoundEB";
+  font-style: normal;
+  font-weight: 800;
+  src:
+    url("font/NanumSquareRoundEB.woff2") format("woff2"),
+    url("font/NanumSquareRoundEB.woff") format("woff"),
+    url("font/NanumSquareRoundEB.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "openSans";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    url("font/OpenSans-Regular.woff2") format("woff2"),
+    url("font/OpenSans-Regular.woff") format("woff"),
+    url("font/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "openSans";
+  font-style: normal;
+  font-weight: 700;
+  src:
+    url("font/OpenSans-SemiBold.woff2") format("woff2"),
+    url("font/OpenSans-SemiBold.woff") format("woff"),
+    url("font/OpenSans-SemiBold.ttf") format("truetype");
+}
