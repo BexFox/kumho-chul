@@ -59,17 +59,21 @@ label, a, button {-o-tap-highlight-color:rgba(0, 0, 0, 0);-ms-tap-highlight-colo
 
 
 .container{width:100%;max-width:1024px;margin:0 auto}
-.contents .visual{position:relative;height: 450px;background:yellow}
+.contents .visual{position:relative;height: 450px;background-image: url("./images/steel.jpg");}
 .contents .logo{position:absolute;top: 10px;left: 10px; font-size: 30px;}
 .contents .title{line-height:35px;margin:20px 0;text-align:center;font-size: 30px;}
-.contents .title span{display:block;font-size: 18px;color:pink;}
+.contents .title span{display:block;font-size: 18px;color:navy;}
 .contents .about_wrap{margin: 60px 0;text-align:center;}
 .contents .about_wrap .tit_greeting{font-size: 25px;}
 .contents .about_wrap p{margin:20px 0;line-height: 27px;font-size: 16px;}
 .contents .contact_wrap img{margin:auto;width: 50px;height: 50px;}
-.contents .contact_wrap .tit{margin-top: 17px;font-size: 25px;margin-bottom:5px;color:#FF0066;}
+.contents .contact_wrap .tit{margin-top: 17px;font-size: 25px;margin-bottom:5px;color:#9E7B67;}
 .contents .contact_wrap ul{display: flex;text-align: center;}
 .contents .contact_wrap ul li{width: 33.3%; line-height: 25px;}
 .contents .contact_wrap ul li span{display:block;}
-.contents .map_wrap{margin: 60px 0;text-align:center;}
-.footer{width:100%;max-width:1024px;margin:0 auto}
+.contents .map_wrap{margin: 60px 0 0 0;text-align:center;}
+.contents .mapping{display:block; box-sizing: border-box; margin: 0;}
+.contents #map{width:100%;height:300px;}
+.footer{width:100%;max-width:1024px;margin:0 auto;}
+.footer .container{position:relative; background:yellow;}
+.footer .footer_logo{position:absolute;}
