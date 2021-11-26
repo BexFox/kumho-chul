@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+@font-face {
+  font-family:'NanumSquareRound';
+  src:url(./font/NanumSquareRoundL.ttf)
+}
+
 * { -webkit-font-smoothing: antialiased; }
 html {height:100%; overflow-y:auto;}
 body {margin-top:0 !important; height:100%; color:#515151; font:12px/14px  'notokr-regular', 'Malgun Gothic', '맑은 고딕', 'Dotum', 'applegothic', sans-serif; /* font-weight: 600; */ word-break:break-all; word-wrap:break-word; word-break:keep-all; -webkit-font-smoothing: antialiased; }
@@ -44,7 +49,7 @@ audio[controls], canvas, video {display:inline-block; *display:inline; *zoom:1;}
 label, a, button {-o-tap-highlight-color:rgba(0, 0, 0, 0);-ms-tap-highlight-color:rgba(0, 0, 0, 0);-moz-tap-highlight-color rgba(0, 0, 0, 0);-webkit-tap-highlight-color:rgba(0, 0, 0, 0);}
 
 /* global */
-body{font-family:'NanumSquareRound';}
+body *{font-family:'NanumSquareRound';}
 .none {display:none;}
 .hidden {font-size:0; line-height:0; text-indent:-9999px; overflow:hidden;}
 .fl {float:left;}
